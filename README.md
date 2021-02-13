@@ -1,5 +1,7 @@
 # evilhugo
 
+## Een stukkie tekst van een WhatsApp aan de Crew of 42 (https://www.42solutions.nl)
+
 Een opwarmer voor morgen op het gebied van wiskunde waar ik de slechtste punten voor heb gehaald omdat ik het gewoon niet begrijp: kansrekenen e.d.
 
 100 software engineers die onder leiding van Hugo de J. de exportfuntie hebben gemaakt voor de GGD staan op het punt op door dezelfde Hugo de J. op straat te worden gezet. Maar, vind Hugo de J., ik wil ze best clementie geven en ze in dienst houden maar alleen als zij slagen in de volgende opgave.
@@ -13,9 +15,9 @@ Iedere software heini krijgt, zonder dat de andere heinies mogen meekijken, éé
 De opwarmer is: wat is de kans dat de software heinies bij de GGD mogen blijven? 
 
 
- De moeilijkheid komt morgen, dus het antwoord op deze vraag kan hier bediscussieerd worden.
+De moeilijkheid komt morgen, dus het antwoord op deze vraag kan hier bediscussieerd worden.
 
-Morgen:
+## Het stukkie tekst de dag erna
 
 Terugkomende op de software heinies van Hugo de J.
 
@@ -28,6 +30,14 @@ Dus aan jullie de vraag wat de slimme software heini in het overleg met alle and
 (eigenlijk klopt het verhaal voor geen meter, anders had de slimmerik nooit bij de GGD gewerkt aan een exportfunctie, maar goed)
 
 Een tip. Je kunt natuurlijk ook even kijken wat als er 6 heinies zijn die een kast met 6 laatjes mogen bezoeken en 3 laatjes open trekken.
+
+## Nog een extraatje uit de conversatie 
+
+Ha, een der leden van de crew is weer slimmer dan de schrijver van het verhaaltje. Laten we zeggen dat de heinies elkaar niet meer zien tussendoor.
+
+## De toepassing
+
+Als de make zijn werk heeft gedaan kun je de app zo starten:
 
 ./bin/main 10 1000 WILLEKEUR of ./bin/main 10 1000 EERSTE
 
