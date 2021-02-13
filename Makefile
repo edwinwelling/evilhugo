@@ -6,7 +6,7 @@ SRC     := src
 INCLUDE := include
 
 LIBRARIES   := -lstdc++fs
-EXECUTABLE  := main
+EXECUTABLE  := evil_hugo
 
 
 all: $(BIN)/$(EXECUTABLE)
