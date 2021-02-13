@@ -23,13 +23,19 @@ bool Heini::heeft_geluk() const {
                    mijn_bsn) != std::end(nummerkes_die_ik_gezien_heb);
 }
 
+std::vector<int> Heini::geef_nummerkes_die_ik_gezien_heb() const {
+  return nummerkes_die_ik_gezien_heb;
+}
+
+int Heini::geef_mijn_bsn() const { return mijn_bsn; }
+
 std::ostream &operator<<(std::ostream &os, const Heini &heini) {
-  os << "Heini met BSN " << heini.mijn_bsn
+  os << "Heini met BSN " << heini.geef_mijn_bsn()
      << " geeft de volgende nummerkes gezien: ";
 
-  std::copy(heini.nummerkes_die_ik_gezien_heb.begin(),
-            heini.nummerkes_die_ik_gezien_heb.end(),
-            std::ostream_iterator<int>(os, ","));
+  std::vector<int> gezien = heini.geef_nummerkes_die_ik_gezien_heb();
+
+  std::copy(gezien.begin(), gezien.end(), std::ostream_iterator<int>(os, ","));
 
   os << " en heeft ";
 
