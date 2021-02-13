@@ -40,7 +40,7 @@ Ha, een der leden van de crew is weer slimmer dan de schrijver van het verhaaltj
 Als de make zijn werk heeft gedaan kun je de app zo starten:
 
 De applicatie kan als volgt worden gebruikt:
-./bin/evil_hugo <aantal heinies> <aantal pogingen> <WILLEKEUR|EERSTE>
+./bin/evil_hugo \<aantal heinies\> \<aantal pogingen\> \<'WILLEKEUR'|'EERSTE'\>
 
 ./bin/evil_hugo 10 1000 WILLEKEUR of ./bin/evil_hugo 10 1000 EERSTE
 
