@@ -17,7 +17,13 @@ Kast::Kast(size_t aantal_laatjes) : laatjes(aantal_laatjes) {
 
 
 int Kast::schuif_laatje_open(size_t nummer_van_laatje) const {
-    return laatjes.at(nummer_van_laatje-1);
+    int nummerke = 0;
+    try {
+      nummerke = laatjes.at(nummer_van_laatje-1);
+    } catch (std::out_of_range e) {
+      throw std::out_of_range("nee, nee gij kan niet onbestaanbaar laatje openen");
+    }
+    return nummerke;
 }
 
 
