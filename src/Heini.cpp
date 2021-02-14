@@ -1,4 +1,5 @@
 #include "Heini.hpp"
+#include "Kast.hpp"
 #include <iterator>
 
 Heini::Heini(int bsn, std::unique_ptr<EenIdee> een_idee)
@@ -7,7 +8,7 @@ Heini::Heini(int bsn, std::unique_ptr<EenIdee> een_idee)
   slim_idee->bevind_zich_in_mijn_hoofd(*this);
 }
 
-void Heini::doorzoek(OpenTeSchuiven &iets_met_meerdere_laatjes) {
+void Heini::doorzoek(const Kast &iets_met_meerdere_laatjes) {
 
   while (slim_idee->ik_mag_nog_iets_mag_doen()) {
     int dit_laatje = slim_idee->welk_laatje_trek_ik_open();

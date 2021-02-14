@@ -6,6 +6,8 @@
 #include <algorithm>
 #include "EenIdee.hpp"
 
+class Kast;
+
 class Heini {
 private:
   const int mijn_bsn;
@@ -19,7 +21,7 @@ public:
 
   virtual ~Heini() = default;
 
-  void doorzoek(OpenTeSchuiven &iets_met_meerdere_laatjes);
+  void doorzoek(const Kast& iets_met_meerdere_laatjes);
 
   bool heeft_geluk() const;
 

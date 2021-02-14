@@ -4,13 +4,7 @@
 #include <ostream>
 #include <vector>
 
-
-class OpenTeSchuiven {
-	public:
-		virtual int schuif_laatje_open(size_t nummer_van_laatje) const = 0;
-};
-
-class Kast : public OpenTeSchuiven
+class Kast
 {
 	private:
 		std::vector<int> laatjes;
@@ -21,7 +15,7 @@ class Kast : public OpenTeSchuiven
 		Kast(size_t aantal_laatjes);
 		~Kast() = default;
 
-		int schuif_laatje_open(size_t nummer_van_laatje) const override;
+		int schuif_laatje_open(size_t nummer_van_laatje) const;
 
 };
 
