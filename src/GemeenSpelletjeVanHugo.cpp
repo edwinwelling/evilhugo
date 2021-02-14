@@ -5,7 +5,9 @@
 
 GemeenSpelletjeVanHugo::GemeenSpelletjeVanHugo(int aantal_heinies, ideetje hoe_gaan_ze_het_aanpakken)
     : hugos_kast(aantal_heinies),
-      wachtkamer(GGD::kom_achter_jullie_scherm_vandaan(aantal_heinies, hoe_gaan_ze_het_aanpakken)), een_ongelukige_gevonden(false) {}
+      wachtkamer(GGD::kom_achter_jullie_scherm_vandaan(aantal_heinies, hoe_gaan_ze_het_aanpakken)), een_ongelukige_gevonden(false) {
+          std::cout << "De Kast is klaar voor het gemene spel: " << hugos_kast << '\n';
+      }
 
 void GemeenSpelletjeVanHugo::speel() {
 

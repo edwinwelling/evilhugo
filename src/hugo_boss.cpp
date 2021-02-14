@@ -2,6 +2,7 @@
 #include "Voorkeuren.hpp"
 #include "Ideetje.hpp"
 #include <iostream>
+#include <ios>
 
 int main(int argc, const char* argv[]) {
 
@@ -20,5 +21,5 @@ int main(int argc, const char* argv[]) {
 
   onderzoekje.hugo_klaar_beginnen_maar();
 
-  std::cout << "Uit ons empirisch onderzoek blijkt dat de kans om bij de GGD te blijven " << onderzoekje.wat_was_nu_de_kans_dat_ze_mochten_blijven() << " is\n";
+  std::cout << "Uit ons empirisch onderzoek blijkt dat de kans om bij de GGD te blijven " << std::scientific << onderzoekje.wat_was_nu_de_kans_dat_ze_mochten_blijven() << " is\n";
 }

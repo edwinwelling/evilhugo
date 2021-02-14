@@ -25,7 +25,7 @@ void EmpirischOnderzoek::hugo_klaar_beginnen_maar() {
                    "sturen zonder water en brood.\n";
       aantal_keren_dat_ze_eruit_gegooid_worden++;
     } else {
-      std::cout << "Hugo de J. heeft pech. De softwware heinies kunnen bij de "
+      std::cout << "Hugo de J. heeft pech. De software heinies kunnen bij de "
                    "GGD blijven werken.\n";
       aantal_keren_dat_ze_bij_de_GGD_mogen_blijven++;
     }
