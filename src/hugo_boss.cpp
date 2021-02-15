@@ -13,6 +13,9 @@ int main(int argc, const char* argv[]) {
   } catch (std::runtime_error e) {
       std::cerr << "ge moet het 3 waarden opgeven:\n" << voorkeuren.geef_toepassing() << " #heinies #pogingen hoe\n";
       exit (42);
+  } catch (std::invalid_argument e) {
+      std::cerr << "ge moet op de juise plekkies (#heinies #pogingen) een nummerke opgeven:\n" << voorkeuren.geef_toepassing() << " #heinies #pogingen hoe\n";
+      exit (42);
   }
 
   std::cout << voorkeuren << '\n';
