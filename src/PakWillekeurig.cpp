@@ -10,7 +10,7 @@ PakWillekeurig::PakWillekeurig(int aantal_keer_open_en_dicht)
   we_gaan_hierin_husselen.reserve(aantal_keer_open_en_dicht * 2);
 
   std::iota(std::begin(we_gaan_hierin_husselen),
-            std::end(we_gaan_hierin_husselen), 1);
+            std::end(we_gaan_hierin_husselen), 0);
   std::shuffle(std::begin(we_gaan_hierin_husselen),
                std::end(we_gaan_hierin_husselen),
                std::default_random_engine(een_zaadje_geplant));
